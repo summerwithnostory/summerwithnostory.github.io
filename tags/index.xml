@@ -2,112 +2,112 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Lerong</title>
-    <link>http://example.com/tags/</link>
+    <link>https://summerwithnostory.github.io/tags/</link>
     <description>Recent content in Tags on Lerong</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2011-2020 Fabian Tamp</copyright>
     <lastBuildDate>Sun, 26 Jan 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://example.com/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://summerwithnostory.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>New South Wales</title>
-      <link>http://example.com/tags/new-south-wales/</link>
+      <link>https://summerwithnostory.github.io/tags/new-south-wales/</link>
       <pubDate>Sun, 26 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://example.com/tags/new-south-wales/</guid>
+      <guid>https://summerwithnostory.github.io/tags/new-south-wales/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Small birds</title>
-      <link>http://example.com/tags/small-birds/</link>
+      <link>https://summerwithnostory.github.io/tags/small-birds/</link>
       <pubDate>Sun, 26 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://example.com/tags/small-birds/</guid>
+      <guid>https://summerwithnostory.github.io/tags/small-birds/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Large Birds</title>
-      <link>http://example.com/tags/large-birds/</link>
+      <link>https://summerwithnostory.github.io/tags/large-birds/</link>
       <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://example.com/tags/large-birds/</guid>
+      <guid>https://summerwithnostory.github.io/tags/large-birds/</guid>
       <description></description>
     </item>
     
     <item>
       <title>css</title>
-      <link>http://example.com/tags/css/</link>
+      <link>https://summerwithnostory.github.io/tags/css/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://example.com/tags/css/</guid>
+      <guid>https://summerwithnostory.github.io/tags/css/</guid>
       <description></description>
     </item>
     
     <item>
       <title>html</title>
-      <link>http://example.com/tags/html/</link>
+      <link>https://summerwithnostory.github.io/tags/html/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://example.com/tags/html/</guid>
+      <guid>https://summerwithnostory.github.io/tags/html/</guid>
       <description></description>
     </item>
     
     <item>
       <title>hugoBasicSite</title>
-      <link>http://example.com/tags/hugobasicsite/</link>
+      <link>https://summerwithnostory.github.io/tags/hugobasicsite/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://example.com/tags/hugobasicsite/</guid>
+      <guid>https://summerwithnostory.github.io/tags/hugobasicsite/</guid>
       <description></description>
     </item>
     
     <item>
       <title>markdown</title>
-      <link>http://example.com/tags/markdown/</link>
+      <link>https://summerwithnostory.github.io/tags/markdown/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://example.com/tags/markdown/</guid>
+      <guid>https://summerwithnostory.github.io/tags/markdown/</guid>
       <description></description>
     </item>
     
     <item>
       <title>privacy</title>
-      <link>http://example.com/tags/privacy/</link>
+      <link>https://summerwithnostory.github.io/tags/privacy/</link>
       <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://example.com/tags/privacy/</guid>
+      <guid>https://summerwithnostory.github.io/tags/privacy/</guid>
       <description></description>
     </item>
     
     <item>
       <title>shortcodes</title>
-      <link>http://example.com/tags/shortcodes/</link>
+      <link>https://summerwithnostory.github.io/tags/shortcodes/</link>
       <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://example.com/tags/shortcodes/</guid>
+      <guid>https://summerwithnostory.github.io/tags/shortcodes/</guid>
       <description></description>
     </item>
     
     <item>
       <title>text</title>
-      <link>http://example.com/tags/text/</link>
+      <link>https://summerwithnostory.github.io/tags/text/</link>
       <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://example.com/tags/text/</guid>
+      <guid>https://summerwithnostory.github.io/tags/text/</guid>
       <description></description>
     </item>
     
     <item>
       <title>emoji</title>
-      <link>http://example.com/tags/emoji/</link>
+      <link>https://summerwithnostory.github.io/tags/emoji/</link>
       <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://example.com/tags/emoji/</guid>
+      <guid>https://summerwithnostory.github.io/tags/emoji/</guid>
       <description></description>
     </item>
     

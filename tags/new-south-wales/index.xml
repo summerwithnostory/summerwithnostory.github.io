@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>New South Wales on Lerong</title>
-    <link>http://example.com/tags/new-south-wales/</link>
+    <link>https://summerwithnostory.github.io/tags/new-south-wales/</link>
     <description>Recent content in New South Wales on Lerong</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2011-2020 Fabian Tamp</copyright>
     <lastBuildDate>Sun, 26 Jan 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://example.com/tags/new-south-wales/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://summerwithnostory.github.io/tags/new-south-wales/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>The Wood Swallow</title>
-      <link>http://example.com/posts/wood-swallow/</link>
+      <link>https://summerwithnostory.github.io/posts/wood-swallow/</link>
       <pubDate>Sun, 26 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://example.com/posts/wood-swallow/</guid>
+      <guid>https://summerwithnostory.github.io/posts/wood-swallow/</guid>
       <description>The Wood Swallow &amp;ndash; Project Gutenberg
   This Wood Swallow has been long known to ornithologists1, but unfortunately under so many generic and specific appellations, that it may be cited as an instance of the manner in which our science has been burthened with useless names, thereby producing an inextricable confusion2, and which in this instance, by a reference to Latham’s accurate description, and the slightest care on the part of other writers, might have been avoided.</description>
     </item>
     
     <item>
       <title>Pied Crow Shrike</title>
-      <link>http://example.com/posts/magpie/</link>
+      <link>https://summerwithnostory.github.io/posts/magpie/</link>
       <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://example.com/posts/magpie/</guid>
+      <guid>https://summerwithnostory.github.io/posts/magpie/</guid>
       <description>Editor&#39;s note: This page is marked as a draft, which is why everything is orange and stripey.
   The Pied Crow-Shrike &amp;ndash; Project Gutenberg
   This species was originally described and figured in White’s ‘Voyage to New South Wales’: it is consequently the oldest and most familiarly known member of the group to which it belongs. It is very generally distributed over the colony of New South Wales, inhabiting alike the brushes near the coast, those of the mountain ranges, and also the forests of Eucalypti which clothe the plains and more open country.</description>
