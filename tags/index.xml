@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Paperesque theme example</title>
+    <title>Tags on Lerong</title>
     <link>http://example.com/tags/</link>
-    <description>Recent content in Tags on Paperesque theme example</description>
+    <description>Recent content in Tags on Lerong</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2011-2020 Fabian Tamp</copyright>
@@ -31,20 +31,11 @@
     </item>
     
     <item>
-      <title>Large birds</title>
+      <title>Large Birds</title>
       <link>http://example.com/tags/large-birds/</link>
       <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>http://example.com/tags/large-birds/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>South Australia</title>
-      <link>http://example.com/tags/south-australia/</link>
-      <pubDate>Tue, 07 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.com/tags/south-australia/</guid>
       <description></description>
     </item>
     

@@ -3,12 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://example.com/tags/new-south-wales/</loc>
-    <lastmod>2020-01-26T00:00:00+00:00</lastmod>
+    <loc>http://example.com/about/</loc>
+    <lastmod>2021-05-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://example.com/</loc>
+    <lastmod>2021-05-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.com/tags/new-south-wales/</loc>
     <lastmod>2020-01-26T00:00:00+00:00</lastmod>
   </url>
   
@@ -43,32 +48,17 @@
   </url>
   
   <url>
-    <loc>http://example.com/posts/leaches-kingfisher/</loc>
-    <lastmod>2020-01-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://example.com/tags/south-australia/</loc>
-    <lastmod>2020-01-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://example.com/about/</loc>
-    <lastmod>2020-01-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://example.com/posts/kookaburra/</loc>
-    <lastmod>2020-01-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://example.com/categories/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://example.com/tags/css/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.com/hobbies/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url>
   
@@ -88,7 +78,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/posts/markdown-syntax/</loc>
+    <loc>http://example.com/hobbies/markdown-syntax/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url>
   
@@ -108,7 +98,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/posts/rich-content/</loc>
+    <loc>http://example.com/hobbies/rich-content/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
   </url>
   
@@ -118,7 +108,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/posts/placeholder-text/</loc>
+    <loc>http://example.com/hobbies/placeholder-text/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
   </url>
   
@@ -133,7 +123,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/posts/emoji-support/</loc>
+    <loc>http://example.com/hobbies/emoji-support/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
   </url>
   
