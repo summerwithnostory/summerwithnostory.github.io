@@ -1,25 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Lerong&#39;s</title>
-    <link>https://summerwithnostory.github.io/</link>
-    <description>Recent content on Lerong&#39;s</description>
+    <title>cover on Lerong&#39;s</title>
+    <link>https://summerwithnostory.github.io/tags/cover/</link>
+    <description>Recent content in cover on Lerong&#39;s</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2011-2020 Fabian Tamp</copyright>
     <lastBuildDate>Sun, 02 May 2021 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://summerwithnostory.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://summerwithnostory.github.io/tags/cover/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>About me</title>
-      <link>https://summerwithnostory.github.io/about/</link>
-      <pubDate>Sun, 02 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://summerwithnostory.github.io/about/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>La La Land songs cover</title>
