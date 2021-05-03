@@ -18,7 +18,9 @@
       <pubDate>Sun, 02 May 2021 00:00:00 +0000</pubDate>
       
       <guid>https://summerwithnostory.github.io/about/</guid>
-      <description></description>
+      <description>Hi!
+I am Lerong, a programmer in her 20s and someone who also has a passion for life. This is the website where I would post my thoughts, my study record and life sharing occasionally. Here are the things to be expected:
+ Pole dancing. I love both the pole tricks and exotic dances. Tales. My favorite one is The lord of the ring. Though I like it a lot but I am far from an expert in it.</description>
     </item>
     
     <item>
@@ -32,6 +34,16 @@
 ​
 City Of Stars
 ​</description>
+    </item>
+    
+    <item>
+      <title>Demo Post</title>
+      <link>https://summerwithnostory.github.io/posts/magpie/</link>
+      <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://summerwithnostory.github.io/posts/magpie/</guid>
+      <description>The Pied Crow-Shrike &amp;ndash; Project Gutenberg
+  This is a demo post.</description>
     </item>
     
   </channel>
