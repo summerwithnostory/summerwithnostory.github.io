@@ -7,19 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2011-2020 Fabian Tamp</copyright>
-    <lastBuildDate>Mon, 20 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 14 May 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://summerwithnostory.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Demo Post</title>
-      <link>https://summerwithnostory.github.io/posts/magpie/</link>
-      <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
+      <title>Prometheus Basic Ideas </title>
+      <link>https://summerwithnostory.github.io/posts/prometheus-quickstart/</link>
+      <pubDate>Fri, 14 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://summerwithnostory.github.io/posts/magpie/</guid>
-      <description>The Pied Crow-Shrike &amp;ndash; Project Gutenberg
-  This is a demo post.</description>
+      <guid>https://summerwithnostory.github.io/posts/prometheus-quickstart/</guid>
+      <description>This blog will give a short introduction for the open source project Prometheus. It is based on the official website and an online book in Chinese, but I also added some explaintions and understanding from the blog author to help any green hands to better understand it and its usage.
+The first two parts will offer a brief intro to Prometheus. The third part will guide to download it and open the service.</description>
     </item>
     
   </channel>

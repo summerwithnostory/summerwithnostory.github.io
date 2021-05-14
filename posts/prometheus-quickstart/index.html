@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html
+  lang="en-us"
+  prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#"
+>
+  <head>
+    <meta charset="utf-8" />
+
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="HandheldFriendly" content="True" />
+<meta name="MobileOptimized" content="320" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+
+<link rel="apple-touch-icon" sizes="180x180" href="https://summerwithnostory.github.io//apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://summerwithnostory.github.io//favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://summerwithnostory.github.io//favicon-16x16.png">
+<link rel="manifest" href="https://summerwithnostory.github.io//site.webmanifest">
+<link rel="mask-icon" href="https://summerwithnostory.github.io//safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+
+
+<meta name="keywords" content="tech,
+prometheus,
+">
+
+<meta property="og:title" content="Prometheus Basic Ideas " />
+<meta property="og:description" content="This blog will give a short introduction for the open source project Prometheus. It is based on the official website and an online book in Chinese, but I also added some explaintions and understanding from the blog author to help any green hands to better understand it and its usage.
+The first two parts will offer a brief intro to Prometheus. The third part will guide to download it and open the service." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://summerwithnostory.github.io/posts/prometheus-quickstart/" />
+<meta property="article:published_time" content="2021-05-14T00:00:00+00:00" />
+<meta property="article:modified_time" content="2021-05-14T00:00:00+00:00" />
+
+<meta property="og:site_name" content="Summer&#39;s" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Prometheus Basic Ideas "/>
+<meta name="twitter:description" content="This blog will give a short introduction for the open source project Prometheus. It is based on the official website and an online book in Chinese, but I also added some explaintions and understanding from the blog author to help any green hands to better understand it and its usage.
+The first two parts will offer a brief intro to Prometheus. The third part will guide to download it and open the service."/>
+
+
+<meta itemprop="name" content="Prometheus Basic Ideas ">
+<meta itemprop="description" content="This blog will give a short introduction for the open source project Prometheus. It is based on the official website and an online book in Chinese, but I also added some explaintions and understanding from the blog author to help any green hands to better understand it and its usage.
+The first two parts will offer a brief intro to Prometheus. The third part will guide to download it and open the service.">
+<meta itemprop="datePublished" content="2021-05-14T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2021-05-14T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="808">
+
+
+
+<meta itemprop="keywords" content="tech,prometheus," />
+
+
+    <title>Prometheus Basic Ideas  || Summer&#39;s</title>
+    <link rel="canonical" href="https://summerwithnostory.github.io/posts/prometheus-quickstart/" />
+
+    
+
+    <link rel="stylesheet" href="/css/reboot.css" />
+<link rel="stylesheet" href="/css/style.css" />
+<link rel="stylesheet" href="/css/syntax.css" />
+<script type="text/javascript" src="/js/main.js"></script>
+
+<link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  </head>
+  <body
+  class=" look-sheet-bkg"
+  lang="en-us">
+  <div class="nav-bkg drop-shadow">
+    <nav class="content-container pagewide-bar-padding">
+      <span class="divider">/ </span>
+      <a href="/" >Summer&#39;s</a>
+      <span class="divider">/ </span>
+          <a href="/posts/">Posts</a>
+      <ul class="list-unstyled right-links">
+
+          <li>
+            <a href="/about/">
+              <span class="post-title">About me</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="/posts/index.xml">
+              <span class="post-title">rss</span>
+            </a>
+          </li>
+
+</ul>
+
+    </nav>
+  </div>
+  <article
+    id="main"
+    class="content-container look-sheet article-pad-v no-floating-footnotes"
+    itemscope
+    itemtype="https://schema.org/Article" >
+  <meta itemprop="author" content="" />
+  <meta itemprop="publisher" content="" />
+  <meta itemprop="image" content="" />
+  <h1 itemprop="name" id="title">Prometheus Basic Ideas </h1>
+  <meta itemprop="headline" content="Prometheus Basic Ideas " />
+  
+  <div class="post-tags">
+  
+    <a href="https://summerwithnostory.github.io/tags/tech/">#tech</a>&nbsp;
+  
+    <a href="https://summerwithnostory.github.io/tags/prometheus/">#prometheus</a>&nbsp;
+  
+  </div>
+  
+  
+    
+      <div class="post-date"><span itemprop="datePublished">May 14, 2021</span></div>
+      <meta itemprop="dateModified" content="May 14, 2021"/>
+    
+  
+  
+  <div itemprop="articleBody" id="content" class="article-body margin-top-2em">
+    <p>This blog will give a short introduction for the open source project Prometheus. It is based on the <a href="https://prometheus.io/docs/introduction/overview/">official website</a> and an <a href="https://yunlzheng.gitbook.io/prometheus-book/introduction">online book</a> in Chinese, but I also added some explaintions and understanding from the blog author to help any green hands to better understand it and its usage.</p>
+<p>The first two parts will offer a brief intro to Prometheus. The third part will guide to download it and open the service.</p>
+<h2 id="what-is-prometheus">What is Prometheus?</h2>
+<p>It is a toolkit for monitoring and alerting. It is open-source.</p>
+<h3 id="what-is-monitor-toolkit">What is Monitor Toolkit?</h3>
+<p>A monitor, as it is, is used to check the status of its targets and make sure everything goes as planned and collect the running data. In order to become a good monitor for software, the following aspects are usually considered:</p>
+<ul>
+<li>Support a long-term analysis based on the history data collected</li>
+<li>Support a comparison analysis between two different version for the same software</li>
+<li>Alerting management. This means that the monitor should inform the programmer when strange things happen</li>
+<li>Help find the bugs and analyze them.</li>
+<li>GUI. The user can clearly view the data graph in a brower.</li>
+</ul>
+<p>For traditional monitor systems, it focuses on the alerting function. In this case, they usually adopt the check &amp; alarm model.  In this model, the main software will be installed in one server, and the other various servers being monitored will install its plugins. The plugins will do the check and report back to the monitor center (the server with the software). Popular examples include <a href="https://www.nagios.com/">Nagios</a> and <a href="https://www.zabbix.com/">Zabbix</a>.</p>
+<p>However, different from the tranditional monitor model, Prometheus uses a different pull model. It does not dirctly serve the monitor target, but its main activities are to collect, store and provide query. In addition, an exporter is needed if you need to use it towards certain applications.</p>
+<h3 id="what-is-an-exporter">What is an exporter?</h3>
+<p>Exporters are programs to provide data in standard format to Prometheus. There are two kinds of exporters, one is direct collect and the other is indrect collect. For the applications which support Prometheus, their exporters are direct. For the other ones, you need to write a exporter using the client library provided and they are the indirect ones.</p>
+<p>The popular exporters can be checked out <a href="https://prometheus.io/docs/instrumenting/exporters/#third-party-exporters">here</a>.</p>
+<h2 id="architecture-of-prometheus">Architecture of Prometheus</h2>
+<p><img src="./prometheus_architecture.png" alt="prometheus-architecture"></p>
+<h3 id="prometheus-server--center">Prometheus Server : Center</h3>
+<p>This part is resposible for the data collection, storage and retrieval. Users can set the targets being monitored in the static config file ( default is prometheus.yml) or use Service Discovery to dynamically monitor them (the blue bracket in the image).</p>
+<p>For the storage, it is a time series database itself. It stores the time series collected to local disks, like the /data folder right next to the main program.</p>
+<p>For the retrieval, it provided the PromQL language for data query and analysis. A web UI is also used for the visualization.</p>
+<h3 id="exporter-the-data-collector">Exporter: The data collector</h3>
+<p>Exporter will expose the data collect endpoint to Prometheus Server via HTTP.</p>
+<h3 id="alertmanageralert-managment">AlertManager：Alert managment</h3>
+<p>Users can use Prometheus to create alert rules. If certain rulers are met, an alert will be generated. The following procedures will be handled by the AlertManager such as sending an email or slack message to the users.</p>
+<h3 id="pushgateway">PushGateway</h3>
+<p>The discussion we have above assumes that exporter can directly offer the data to the prometheus, or they can comunicate directly. However, this is not always the case. Under situations where Prometheus cannot directly communicate with exporters, a pushGateway is needed as a tranfer center. The server will then get the data here.</p>
+<h2 id="prometheus-install-steps">Prometheus Install steps</h2>
+<ul>
+<li>
+<p>Installing</p>
+<p>Go to the <a href="https://prometheus.io/download/">official website</a> and download the version you need. For example, I am using macOS, so I will download the darwin one.</p>
+</li>
+<li>
+<p>Open:</p>
+<p>unzip the files and open the folder. Here you should see a prometheus(.exe) and a prometheus.yml. The first one is the server program and the second is the default config file. Change the permission for the two files and run the first program</p>
+<p><code>./prometheus</code></p>
+<p>Then open the brower and enter localhost:9090, you should see the UI for the software. Now you didn't edit anything, but in the default configuration, prometheus is monitoring itself.</p>
+</li>
+<li>
+<p>Config:</p>
+<p>Here we take node-export as an example. Node-exporter is used to collect data about the CPU usage, disk usage and so on. You can download it <a href="https://prometheus.io/download/">here</a>. Then run it (It listens on port 9100, make sure the port is available).</p>
+<p>Now we should add the node jobs to the prometheus configuation file to monitor it. Open Prometheus.yml and add the extra  content:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml">scrape_configs:
+  - job_name: <span style="color:#e6db74">&#39;prometheus&#39;</span>
+    static_configs:
+      - targets: [<span style="color:#e6db74">&#39;localhost:9090&#39;</span>]
+  <span style="color:#75715e"># The added lines are as below</span>
+  - job_name: <span style="color:#e6db74">&#39;node&#39;</span>
+    static_configs:
+      - targets: [<span style="color:#e6db74">&#39;localhost:9100&#39;</span>]
+</code></pre></div><p>Then restart the prometheus server.</p>
+<p>Now go to the brower and enter:</p>
+<p><code>up</code></p>
+<p>you should be able to see the following output:</p>
+<pre><code>up{instance=&quot;localhost:9090&quot;,job=&quot;prometheus&quot;}    1
+up{instance=&quot;localhost:9100&quot;,job=&quot;node&quot;}    1
+</code></pre><p>Now you can check out for more query to explore the monitor.</p>
+</li>
+</ul>
+
+  </div>
+</article>
+
+  
+  
+
+  </body>
+</html>

@@ -3,6 +3,36 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://summerwithnostory.github.io/posts/</loc>
+    <lastmod>2021-05-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://summerwithnostory.github.io/tags/prometheus/</loc>
+    <lastmod>2021-05-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://summerwithnostory.github.io/posts/prometheus-quickstart/</loc>
+    <lastmod>2021-05-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://summerwithnostory.github.io/</loc>
+    <lastmod>2021-05-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://summerwithnostory.github.io/tags/</loc>
+    <lastmod>2021-05-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://summerwithnostory.github.io/tags/tech/</loc>
+    <lastmod>2021-05-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://summerwithnostory.github.io/about/</loc>
     <lastmod>2021-05-02T00:00:00+00:00</lastmod>
   </url>
@@ -25,31 +55,6 @@
   <url>
     <loc>https://summerwithnostory.github.io/tags/song/</loc>
     <lastmod>2021-05-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://summerwithnostory.github.io/</loc>
-    <lastmod>2021-05-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://summerwithnostory.github.io/tags/</loc>
-    <lastmod>2021-05-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://summerwithnostory.github.io/posts/magpie/</loc>
-    <lastmod>2020-01-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://summerwithnostory.github.io/posts/</loc>
-    <lastmod>2020-01-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://summerwithnostory.github.io/tags/tech/</loc>
-    <lastmod>2020-01-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
