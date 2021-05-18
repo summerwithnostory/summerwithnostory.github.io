@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html
+  lang="en-us"
+  prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#"
+>
+  <head>
+    <meta charset="utf-8" />
+
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="HandheldFriendly" content="True" />
+<meta name="MobileOptimized" content="320" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+
+<link rel="apple-touch-icon" sizes="180x180" href="https://summerwithnostory.github.io//apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://summerwithnostory.github.io//favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://summerwithnostory.github.io//favicon-16x16.png">
+<link rel="manifest" href="https://summerwithnostory.github.io//site.webmanifest">
+<link rel="mask-icon" href="https://summerwithnostory.github.io//safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+
+
+<meta name="keywords" content="tech,
+kubernetes,
+">
+
+<meta property="og:title" content="The coming of kubernetes" />
+<meta property="og:description" content="This blog is based on the book Getting started with Kubernetes by Jonathan Baier. Some personal understanding is added. It won&#39;t tell you the basic usage on k8s, but provide some ideas about what it is for and why it is needed. Its usage will be covered in later blogs.
+Overview of the containers Containers make the application environments portable and consistent across all infrastructure landscapes. Docker, as an organization, makes containers easy to implement and replicate across environments and providers." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://summerwithnostory.github.io/posts/k8s-intro/" />
+<meta property="article:published_time" content="2021-05-18T00:00:00+00:00" />
+<meta property="article:modified_time" content="2021-05-18T00:00:00+00:00" />
+
+<meta property="og:site_name" content="Summer&#39;s" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="The coming of kubernetes"/>
+<meta name="twitter:description" content="This blog is based on the book Getting started with Kubernetes by Jonathan Baier. Some personal understanding is added. It won&#39;t tell you the basic usage on k8s, but provide some ideas about what it is for and why it is needed. Its usage will be covered in later blogs.
+Overview of the containers Containers make the application environments portable and consistent across all infrastructure landscapes. Docker, as an organization, makes containers easy to implement and replicate across environments and providers."/>
+
+
+<meta itemprop="name" content="The coming of kubernetes">
+<meta itemprop="description" content="This blog is based on the book Getting started with Kubernetes by Jonathan Baier. Some personal understanding is added. It won&#39;t tell you the basic usage on k8s, but provide some ideas about what it is for and why it is needed. Its usage will be covered in later blogs.
+Overview of the containers Containers make the application environments portable and consistent across all infrastructure landscapes. Docker, as an organization, makes containers easy to implement and replicate across environments and providers.">
+<meta itemprop="datePublished" content="2021-05-18T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2021-05-18T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="580">
+
+
+
+<meta itemprop="keywords" content="tech,kubernetes," />
+
+
+    <title>The coming of kubernetes || Summer&#39;s</title>
+    <link rel="canonical" href="https://summerwithnostory.github.io/posts/k8s-intro/" />
+
+    
+
+    <link rel="stylesheet" href="/css/reboot.css" />
+<link rel="stylesheet" href="/css/style.css" />
+<link rel="stylesheet" href="/css/syntax.css" />
+<script type="text/javascript" src="/js/main.js"></script>
+
+<link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  </head>
+  <body
+  class=" look-sheet-bkg"
+  lang="en-us">
+  <div class="nav-bkg drop-shadow">
+    <nav class="content-container pagewide-bar-padding">
+      <span class="divider">/ </span>
+      <a href="/" >Summer&#39;s</a>
+      <span class="divider">/ </span>
+          <a href="/posts/">Posts</a>
+      <ul class="list-unstyled right-links">
+
+          <li>
+            <a href="/about/">
+              <span class="post-title">About me</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="/posts/index.xml">
+              <span class="post-title">rss</span>
+            </a>
+          </li>
+
+</ul>
+
+    </nav>
+  </div>
+  <article
+    id="main"
+    class="content-container look-sheet article-pad-v no-floating-footnotes"
+    itemscope
+    itemtype="https://schema.org/Article" >
+  <meta itemprop="author" content="" />
+  <meta itemprop="publisher" content="" />
+  <meta itemprop="image" content="" />
+  <h1 itemprop="name" id="title">The coming of kubernetes</h1>
+  <meta itemprop="headline" content="The coming of kubernetes" />
+  
+  <div class="post-tags">
+  
+    <a href="https://summerwithnostory.github.io/tags/tech/">#tech</a>&nbsp;
+  
+    <a href="https://summerwithnostory.github.io/tags/kubernetes/">#kubernetes</a>&nbsp;
+  
+  </div>
+  
+  
+    
+      <div class="post-date"><span itemprop="datePublished">May 18, 2021</span></div>
+      <meta itemprop="dateModified" content="May 18, 2021"/>
+    
+  
+  
+  <div itemprop="articleBody" id="content" class="article-body margin-top-2em">
+    <p>This blog is based on the book <em>Getting started with Kubernetes</em> by Jonathan Baier. Some personal understanding is added. It won't tell you the basic usage on k8s, but provide some ideas about what it is for and why it is needed. Its usage will be covered in later blogs.</p>
+<h2 id="overview-of-the-containers">Overview of the containers</h2>
+<p>Containers make the application environments portable and consistent across all infrastructure landscapes. Docker, as an organization, makes containers easy to implement and replicate across environments and providers. Images are the specific instances for containers, they are just like a small filesystem with multiple configuration data and so on.</p>
+<p>Unlike VM, containers care about the specific application. Vm needs to get a full set of OS and other applications before formal usage, containers don't.</p>
+<h3 id="container-core">Container Core</h3>
+<p>At the core for the container are the control groups and namespaces.</p>
+<p>Control groups(cgroups):</p>
+<ol>
+<li>Allow the host to share</li>
+<li>Limit the resource for each process or container.</li>
+</ol>
+<p>In this case, cgroups prevents denial-of-service attack on the hardware resources. Several containers share CPU and memory.</p>
+<p>Namespaces:</p>
+<ol>
+<li>Container processes are limited to see only what is in the same namespace.</li>
+<li>Docker gives each container its own networking stack that protects the sockets and interfaces in a similar fashion.</li>
+</ol>
+<p>Namespace limits the visibility for containers on other processes and so on.</p>
+<h3 id="union-filesystem">Union filesystem</h3>
+<p>Besides the above two, the Union filesystem is also an advantage for Docker containers. As container images snapshot the filesystem, but tend to be much smaller than a VM. In addition, it allows for efficient storage, download, and execution of these images.</p>
+<p>Why does it show such high efficiency? Think of the filesystem as a layered cake.</p>
+<p><img src="./container.png" alt="image-20210518163607504"></p>
+<p>Each layer is baked independently, so we can easily subsitude each without baking them again.</p>
+<h2 id="overview-of-continuous-integrationcontinuous-deployment">Overview of Continuous Integration/Continuous Deployment</h2>
+<p>Continuous intergration: A development practice that requires developers to integrate code into a shared repository several times a day. In this case, the organazation can instill quality control and testing as partof the everyday work cycle. Thus, any bugs will happen faster.</p>
+<p>In short, you should commit frequently. After each commit, auto-tests will be run. Only after passing the auto-tests will your code be merged into the main repository and get deployed. In this case, you should be able to find your bugs much easier than merging a huge block of codes at one time. After pass the tests, a new image will be created and get pushed to the Docker repo for later deployments.</p>
+<h2 id="overview-of-microservices-and-orchestration">Overview of Microservices and orchestration</h2>
+<p><strong>microservices</strong>: In short, the microservice architectural style is an approach to developing a single application as a suite of small services, each running in its own process and communicating with lightweight mechanisms, often an HTTP resource API.</p>
+<p>These services are built around business capabilities and independently deployable by fully automated deployment machinery. There is a bare minimum of centralized management of these services, which may be written in different programming languages and use different data storage technologies.</p>
+<p>In this case, containers become a wonderful solution for the varous microservices with different infrastructure.</p>
+<h2 id="challenges-for-containers">Challenges for containers</h2>
+<ol>
+<li>Life cycle. When a container fail, how to recover? What to do with the upstream services?</li>
+<li>Networking. How to place containers in a cluster?</li>
+<li>Resource Utilization. How to schedule workload and resources?</li>
+<li>Portability. How will we move containers between different nodes on our cluster?</li>
+</ol>
+<h2 id="the-coming-of-kubernetes">The coming of Kubernetes</h2>
+<p>A data center management tool which helps deal with resource utilization, high availability, updates, patching, networking, service discovery, monitoring, and logging.</p>
+
+  </div>
+</article>
+
+  
+  
+    <div class="nav-bkg-50 content-container-narrow-pad bottom-links text-0p75 drop-shadow">
+      <nav class="flex-row">
+      
+      <a href="https://summerwithnostory.github.io/posts/prometheus-quickstart/" class="flex-row v-center no-underline"  style="max-width:45%;">
+        <span class="text-1p5">←</span>&nbsp;<span class="re-underline">Previous: Prometheus Basic Ideas </span>
+      </a>
+      
+      
+        <span class="flex-row v-center"></span>
+      
+      </nav>
+    </div>
+  
+
+  </body>
+</html>

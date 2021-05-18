@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2011-2020 Fabian Tamp</copyright>
-    <lastBuildDate>Fri, 14 May 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 18 May 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://summerwithnostory.github.io/tags/tech/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>The coming of kubernetes</title>
+      <link>https://summerwithnostory.github.io/posts/k8s-intro/</link>
+      <pubDate>Tue, 18 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://summerwithnostory.github.io/posts/k8s-intro/</guid>
+      <description>This blog is based on the book Getting started with Kubernetes by Jonathan Baier. Some personal understanding is added. It won&#39;t tell you the basic usage on k8s, but provide some ideas about what it is for and why it is needed. Its usage will be covered in later blogs.
+Overview of the containers Containers make the application environments portable and consistent across all infrastructure landscapes. Docker, as an organization, makes containers easy to implement and replicate across environments and providers.</description>
+    </item>
     
     <item>
       <title>Prometheus Basic Ideas </title>

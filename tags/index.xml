@@ -7,10 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2011-2020 Fabian Tamp</copyright>
-    <lastBuildDate>Fri, 14 May 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 18 May 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://summerwithnostory.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>kubernetes</title>
+      <link>https://summerwithnostory.github.io/tags/kubernetes/</link>
+      <pubDate>Tue, 18 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://summerwithnostory.github.io/tags/kubernetes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tech</title>
+      <link>https://summerwithnostory.github.io/tags/tech/</link>
+      <pubDate>Tue, 18 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://summerwithnostory.github.io/tags/tech/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>prometheus</title>
@@ -18,15 +36,6 @@
       <pubDate>Fri, 14 May 2021 00:00:00 +0000</pubDate>
       
       <guid>https://summerwithnostory.github.io/tags/prometheus/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tech</title>
-      <link>https://summerwithnostory.github.io/tags/tech/</link>
-      <pubDate>Fri, 14 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://summerwithnostory.github.io/tags/tech/</guid>
       <description></description>
     </item>
     

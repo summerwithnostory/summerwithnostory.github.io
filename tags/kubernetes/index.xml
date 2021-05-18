@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Summer&#39;s</title>
-    <link>https://summerwithnostory.github.io/posts/</link>
-    <description>Recent content in Posts on Summer&#39;s</description>
+    <title>kubernetes on Summer&#39;s</title>
+    <link>https://summerwithnostory.github.io/tags/kubernetes/</link>
+    <description>Recent content in kubernetes on Summer&#39;s</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2011-2020 Fabian Tamp</copyright>
     <lastBuildDate>Tue, 18 May 2021 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://summerwithnostory.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://summerwithnostory.github.io/tags/kubernetes/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -20,16 +20,6 @@
       <guid>https://summerwithnostory.github.io/posts/k8s-intro/</guid>
       <description>This blog is based on the book Getting started with Kubernetes by Jonathan Baier. Some personal understanding is added. It won&#39;t tell you the basic usage on k8s, but provide some ideas about what it is for and why it is needed. Its usage will be covered in later blogs.
 Overview of the containers Containers make the application environments portable and consistent across all infrastructure landscapes. Docker, as an organization, makes containers easy to implement and replicate across environments and providers.</description>
-    </item>
-    
-    <item>
-      <title>Prometheus Basic Ideas </title>
-      <link>https://summerwithnostory.github.io/posts/prometheus-quickstart/</link>
-      <pubDate>Fri, 14 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://summerwithnostory.github.io/posts/prometheus-quickstart/</guid>
-      <description>This blog will give a short introduction for the open source project Prometheus. It is based on the official website and an online book in Chinese, but I also added some explainations and understanding from myself to help any green hands to better understand it and its usage.
-The first two parts will offer a brief intro to Prometheus. The third part will guide to download it and open the service.</description>
     </item>
     
   </channel>
